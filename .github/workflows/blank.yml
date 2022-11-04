@@ -7,5 +7,7 @@ jobs:
       - name: greeting
         run: echo "Hello Mohamed Mohsen"
       
-      - name: second step
-        run: echo "second step"
+      - name: second step multi_run command
+        run: |
+            echo "second step cli1"
+            echo "second step cli2"
