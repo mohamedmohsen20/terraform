@@ -1,0 +1,27 @@
+#Terraform Settings, Providers & Resource Blocks
+
+Step-02: In c1-versions.tf - Create Terraform Settings Block:
+
+terraform {
+  required_version = "~> 0.14" # which means any version equal & above 0.14 like 0.15, 0.16 etc and < 1.xx
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.0" # option but recommended in production
+    }
+  }
+}
+
+
+---------------------------------------------
+Step-03: In c1-versions.tf - Create Terraform Providers Block
+
+# Provider Block
+provider "aws" {
+  region  = us-east-1
+  profile = "default"
+}
+
+-------------------------------------------------
+Step-04: In c2-ec2instance.tf - Create Resource Block
+
