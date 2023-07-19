@@ -1,3 +1,9 @@
+#Conditions
+# Ensure you have default-vpc in that respective region
+# Ensure AMI you are provisioning exists in that region if not update AMI ID
+#Verify your AWS Credentials in $HOME/.aws/credentials
+
+
 # Terraform Settings Block
 terraform {
   required_providers {
