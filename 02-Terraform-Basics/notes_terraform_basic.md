@@ -7,7 +7,7 @@
 
 
 ---------------------------------
-***02-02-Terraform-Command-Basics****
+##02-02-Terraform-Command-Basics
 
 Understand basic Terraform Commands:
 $ terraform init
@@ -23,7 +23,7 @@ Understand Blocks:
 
 # Template
 <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>"   {
-  # Block body
+  #\ Block body
   <IDENTIFIER> = <EXPRESSION> # Argument
 }
 
